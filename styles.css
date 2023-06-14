@@ -1,21 +1,13 @@
 /*  your css code here. If applicable */
 /*  your css code here. If applicable */
 #line{
+	background-color:black;
 	position:absolute;
-	margin-top:200px;
-	margin-left:200px;
-  height:2px;
-  width:200px !important;
-  background: linear-gradient(
-    to bottom,
-    transparent 2px,
-    black 2px,
-    black 3px,
-    transparent 3px
-  );
-animation: rotate-animation 2s infinite linear;	
+	width:200px;
+	height:2px;
+	margin:120px;	
 }
-@keyframes rotate-animation {
+/* @keyframes rotate-animation {
 	0% {
 		transform: rotate(0deg);
   }
@@ -25,4 +17,4 @@ animation: rotate-animation 2s infinite linear;
 	100% {
 		transform: rotate(360deg);
 	}
-}
+} */
