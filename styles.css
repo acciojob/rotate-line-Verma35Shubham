@@ -5,9 +5,10 @@
 	position:absolute;
 	width:200px;
 	height:2px;
-	margin:120px;	
+	margin:120px;
+animation: rotate-animation 2s infinite linear;	
 }
-/* @keyframes rotate-animation {
+@keyframes rotate-animation {
 	0% {
 		transform: rotate(0deg);
   }
@@ -17,4 +18,4 @@
 	100% {
 		transform: rotate(360deg);
 	}
-} */
+}
